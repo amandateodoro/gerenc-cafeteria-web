@@ -7,10 +7,10 @@ export const databaseProviders = [
       const dataSource = new DataSource({
         type: 'mysql',
         host: 'localhost',
-        port: 3308,
+        port: 3306,
         username: 'root',
         password: 'root',
-        database: 'tarefas_db',
+        database: 'cafe_mania_db',
         entities: [__dirname + '/../**/*.entity{.ts,.js}'],
         synchronize: true,
       });
